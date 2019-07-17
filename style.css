@@ -1,0 +1,43 @@
+table{
+    border: 6px solid rgb(51, 51, 51);
+    width: 100%;
+    font-family: 'VT323', monospace;
+    box-shadow: 5px 5px 10px #666;
+    border-collapse: collapse;
+    background-image: url(Black-background.jpg);
+    color: white;
+    text-align: center;
+}
+thead{
+    color: yellow;
+}
+tbody{
+    color: white;
+    text-align: center;
+}
+th, td{
+    padding: 10px;
+}
+tfoot{
+    text-align: center;
+    color: white;
+
+}
+span{
+    color: yellow;
+}
+tbody tr:nth-child(odd){
+    background-color: rgba(51, 51, 51, .8);
+}
+thead td:nth-child(1){
+    width: 25%;
+}
+thead td:nth-child(2){
+    width: 25%;
+}
+thead td:nth-child(3){
+    width: 35%;
+}
+thead td:nth-child(4){
+    width: 15%;
+}
